@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: transparent;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(234, 88, 9);
+    text-transform: capitalize;
+}
+nav{
+    display: flex;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style-type:none;
+    margin: 15px 45px;
+    font-family: sans-serif;
+    font-size: 20px;
+    word-break: 2px;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+nav ul li a{
+    color: antiquewhite;
+}
+nav ul li a:hover{
+    border: 1px solid white;
+    padding: 3px 9px;
+    text-transform: uppercase;
+    color: aquamarine;
+}
+.nav-link{
+    justify-content: center;
+    text-align: center;
+    color: aliceblue;
+    text-transform: capitalize;
+}
+.img-thumbnail{
+    object-fit: cover;
+}
+.card1{
+    color: white;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    padding: 15px 25px;
+    margin: 10px 15px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-image: url("WhatsApp Image 2023-11-20 at 20.09.33_f8c53982.jpg");
+    background-position: center;
+    background-size: cover;
+    
+    font-size: 20px;
+    font-weight: 20px;
+}
+.card2{
+    color: white;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    padding: 15px 25px;
+    margin: 10px 15px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-image: url("WhatsApp Image 2023-12-26 at 20.34.02_9db32c83.jpg");
+    background-position: center;
+    background-size: cover;
+    font-size: 20px;
+    font-weight: 20px;
+}
+.card3{
+    color: white;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    padding: 15px 25px;
+    margin: 10px 15px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-image: url("WhatsApp Image 2023-12-26 at 20.33.59_a6e64346.jpg");
+    background-position: center;
+    background-size: cover;
+    font-size: 20px;
+    font-weight: 20px;
+}
+.card4{
+    color: white;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    padding: 15px 25px;
+    margin: 10px 15px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-image: url("WhatsApp Image 2023-12-26 at 20.43.48_2cb29d94.jpg");
+    background-position: center;
+    background-size: cover;
+    font-size: 20px;
+    font-weight: 20px;
+}
+.card5{
+    color: white;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    padding: 15px 25px;
+    margin: 10px 15px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-image: url("WhatsApp Image 2023-12-26 at 20.35.46_42970a85.jpg");
+    background-position: center;
+    background-size: cover;
+    font-size: 20px;
+    font-weight: 20px;
+}
+.card6{
+    color: white;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    padding: 15px 25px;
+    margin: 10px 15px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-image: url("vuregimpu.jpg");
+    background-position: center;
+    background-size: cover;
+    font-size: 20px;
+    font-weight: 20px;
+}
+.card1,.card2,.card3,.card4,.card5,.card6{
+    transition: width 2s,height 2s,transform 2s;
+}
+.card1:hover:hover,.card2:hover,.card3:hover,.card4:hover,.card5:hover,.card6:hover{
+    width: 200px;
+    height: 220px;
+}
+footer{
+    padding-top: 50px;
+}
+.footer1{
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    width: 33.3%;
+}
+h3{
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+/*.footer-content p{
+    width:100px;
+    margin:auto;
+    padding: 7px;
+}
+.footer-content ul{
+    text-align: center;
+}
+.list{
+    padding: 0;
+}
+.list li{
+    width: auto;
+    text-align: center;
+    list-style-type: none;
+    padding: 7px;
+    position: relative;
+}
+.list li::before{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 100%;
+    width: 0;
+    height: 2px;
+    background: orange;
+    transition-duration: .5s;
+}
+.list li:hover::before{
+    width:70px;
+}
+.social-icons{
+    text-align: center;
+    padding: 0;
+}
+.social-icons li{
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+}
+.social-icons i{
+    color: rgb(230, 128, 20);
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: rgba(237, 121, 38, 0.888);
+}
+.social-icons i:hover{
+    color: rgb(249, 180, 50);
+}*/
